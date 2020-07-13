@@ -5,6 +5,7 @@
 body {
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, red , yellow);
 }
 
 .zone {
@@ -70,11 +71,10 @@ a {
 .container {
     /*show heigh: auto*/
     /*margin-top: 50px;*/
-    height: 70vh; 
+    height:  70vh; 
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .cover {
@@ -87,7 +87,6 @@ a {
     animation: pulse 5s ;
     color: #DA9227;
     font-size: 3.5rem;
-    padding-right: 20px;
 }
 
 strong{
@@ -124,9 +123,14 @@ strong{
 .box2{
     justify-self: end;
 }
+
+.burgerimg {
+    max-height: 427px;
+}
+
 .box {
     max-width: 759px;
-    max-height: 500px;
+    max-height: 600px;
     margin: 80px;
     margin-top: 20px;
     display: flex;
