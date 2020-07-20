@@ -5,7 +5,10 @@
 body {
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
+<<<<<<< HEAD
     /*background: linear-gradient(to right, orange, white, white, white, white, orange);*/
+=======
+>>>>>>> parent of 505a0ef... background + burgerimg height
 }
 
 .zone {
@@ -71,10 +74,11 @@ a {
 .container {
     /*show heigh: auto*/
     /*margin-top: 50px;*/
-    height:  70vh; 
+    height: 70vh; 
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .cover {
@@ -89,6 +93,7 @@ img.cover {
     animation: pulse 5s ;
     color: #DA9227;
     font-size: 3.5rem;
+    padding-right: 20px;
 }
 
 strong{
@@ -125,14 +130,9 @@ strong{
 .box2{
     justify-self: end;
 }
-
-.burgerimg {
-    max-height: 427px;
-}
-
 .box {
     max-width: 759px;
-    max-height: 600px;
+    max-height: 500px;
     margin: 80px;
     margin-top: 20px;
     display: flex;
