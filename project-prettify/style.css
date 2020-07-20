@@ -5,7 +5,7 @@
 body {
     margin: 0 auto;
     font-family: 'Montserrat', sans-serif;
-    background: linear-gradient(to right, red , yellow);
+    /*background: linear-gradient(to right, orange, white, white, white, white, orange);*/
 }
 
 .zone {
@@ -81,7 +81,9 @@ a {
     width: 30rem;
 }
 
-
+img.cover {
+    margin-left: 10em;
+}
 
 .welcomeText {
     animation: pulse 5s ;
@@ -96,11 +98,11 @@ strong{
 @keyframes pulse {
   0% {
       color: transparent;
-      font-size: 3rem;
+
   }
   100% {
       color: #DA9227;
-      font-size: 3.5rem;
+
   }
 }
 
